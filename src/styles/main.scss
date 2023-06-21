@@ -152,6 +152,10 @@ body {
 
     &__text_container {
         padding: 0 2vw;
+        
+        @media (max-width: 768px) {
+            text-align: center;
+        }
 
         h2 {
         margin-bottom: 24px;

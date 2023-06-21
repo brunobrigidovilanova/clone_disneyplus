@@ -6,6 +6,16 @@
         margin-bottom: 24px;
     }
 
+    &__answer__list {
+        padding-left: 40px;
+
+        &__item {
+            margin-bottom: 0;
+            margin-top: 16px;
+            list-style-type: disc;
+        }
+    }
+
     &__questions {
 
         &__item {
@@ -37,6 +47,10 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                &__paragraph {
+                    margin-top: 16px;
+                }
             }
 
             &--is-open {
